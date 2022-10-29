@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.extra-color{
+    color: lightsalmon;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(salmon,tomato);
+    padding: 15px 40px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.flex{
+   display: flex;
+   align-items: center;
+   gap: 20px;
+}
+.banner-area p{
+    margin-top: 20px;
+}
+.banner-area a{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.banner-area h1{
+    border-left: 5px solid lightcoral;
+    padding-left: 15px;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+   max-width: 100%;
+   width: 70%;
+}
+img{
+   max-width: 100%;
+   width: 70%;
+}
+.mission-area{
+    padding: 50px 0;
+}
+.mission-area h2 span{
+    color: red;
+}
+.mission-area h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.service{
+    width: 33.33%;
+    padding-left: 10px;
+}
+.mission-area img{
+    width: 150px;
+}
+.container{
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.service{
+    border-radius: 20px;
+    padding: 40px 15px;
+}
+.service.mission-color{
+    background-color: rgb(245, 234, 234);
+}
+.service.vission-color{
+    background-color: antiquewhite;
+}
+.service.goals-color{
+    background-color: rgb(221, 217, 221);
+}
+.about-area{
+    padding: 50px 0;
+}
+.about-area img{
+    margin-top: 80px;
+}
+.about-area h2{
+    font-size: 40px;
+}
+.about-area p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.application-area{
+    padding: 50PX 0;
+}
+.application-area h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.application-area h2 span{
+    color:coral;
+}
+.application-area h3{
+    font-size: 40px;
+}
+footer{
+    background-color: #121212;
+    padding: 50px 0;
+    text-align: center;
+}
+footer h2{
+    color: white;
+}
+footer h2 span{
+    color: rgb(172, 12, 12);
+}
+footer p{
+    color: white;
+}
